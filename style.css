@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#profile-pic-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+#profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#about {
+  margin-top: 30px;
+}
+
+#about-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: #7289DA;
+  background-image: linear-gradient(45deg, #7289DA, #6A86D5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #fff;
+}
+
+.button i {
+  margin-right: 10px;
+}
+
+.button span {
+  vertical-align: middle;
+}
